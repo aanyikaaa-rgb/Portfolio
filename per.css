@@ -1,0 +1,111 @@
+.pp2 {
+    text-align: center;
+}
+
+.pjc {
+    background-color: rgb(1, 3, 37);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 0 5px 30px rgba(230, 191, 22, 0.76);
+    transition: transform 0.3s ease ;
+    margin-left:1rem ;
+    margin-right:1rem ;
+    transform: translate(50px, 10px);
+    
+}
+.an {
+    display: inline-block;
+    grid-template-columns: repeat(auto-fit,minmax(300px , 1fr));
+    gap: 2rem;
+    max-width: 400px;  
+    margin: auto;
+
+}
+.gallery {
+    margin-bottom: 3rem;
+}
+.pjc img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+    display: block;
+}
+.pp3 {
+    text-align: left;
+   
+}
+.pjc1 {
+    background-color: rgb(1, 3, 37);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 0 5px 30px rgb(214, 105, 2, 0.692);
+    transition: transform 0.3s ease ;
+    margin-left:1rem ;
+    margin-right:1rem ;
+    transform: translate(30px, -110px);
+    width: 350px;
+}
+.an1 {
+    display: inline-block;
+    grid-template-columns: repeat(auto-fit,minmax(300px , 1fr));
+    gap: 2rem;
+    max-width: 400px;  
+    margin-left: 5%;
+
+}
+.gallery1 {
+    margin-bottom: 3rem;
+}
+.pjc1 img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+    display: block;
+    transform: translate(60px);
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.pjc2 {
+    background-color: rgb(1, 3, 37);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 0 5px 30px rgba(214, 105, 2, 0.692);
+    transition: transform 0.3s ease ;
+    margin-left:1rem ;
+    margin-right:1rem ;
+    transform: translate(-20px, -90px);
+    width: 350px;
+    
+}
+.an2 {
+    display: inline-block;
+    grid-template-columns: repeat(auto-fit,minmax(300px , 1fr));
+    gap: 2rem;
+    max-width: 350px;  
+    
+    
+
+}
+.gallery2 {
+    margin-bottom: 3rem;
+}
+.pjc2 img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+    display: block;
+    transform: translate(60px);
+    margin-bottom: 20px;
+    margin-left: 7%;
+    
+}
+.box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px , 1fr));
+    margin-top: 5%;
+    
+}
+.box img {
+    width: 70%;
+    
+}
